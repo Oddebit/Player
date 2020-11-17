@@ -4,11 +4,7 @@ public abstract class AbstractCustomer {
 
     protected String name;
 
-    public boolean isNil() {
-        return true;
-    }
+    public abstract boolean isNil();
 
-    public String getName() {
-        return name;
-    }
+    public abstract String getName();
 }

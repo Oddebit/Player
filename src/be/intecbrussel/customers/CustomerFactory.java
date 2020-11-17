@@ -7,6 +7,7 @@ public class CustomerFactory {
     public static AbstractCustomer getCustomer(String name) {
 
         for (String customer : NAMES) {
+
             if (customer.equals(name)) {
                 return new RealCustomer(customer);
             }
